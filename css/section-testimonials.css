@@ -1,0 +1,53 @@
+.section-testimonials{
+    margin: 80px auto;
+    padding-bottom: 80px;
+    background-color: var(--black);
+}
+
+.section__title-white{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 34px;
+    color: white;
+}
+
+.client__grid{
+    margin: 80px auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 35px;
+}
+
+.client__card{
+    padding: 15px;
+    border-top: 1px solid var(--grey);
+    border-left: 1px solid var(--grey);
+    border-bottom: 1px solid var(--grey);
+    display: flex;
+    flex-direction: column;
+}
+
+.client__inner{
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.client__text{
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--grey);
+}
+
+.client__name{
+    font-size: 18px;
+    color: var(--white);
+}
+
+.client__img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
