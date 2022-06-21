@@ -1,6 +1,7 @@
 @import url(vars.css);
 @import url(header.css);
 @import url(section.css);
+@import url(section-testimonials.css);
 
 body{
     font-family: 'Montserrat', sans-serif;
