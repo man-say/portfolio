@@ -1,0 +1,43 @@
+.footer{
+    height: 100vh;
+    background: var(--black);
+}
+
+.footer__get-in-touch{
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    margin: 20px 0 5px 0;
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--grey);
+}
+
+input{
+    outline: none;
+    padding: 5px;
+    height: 30px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+input[type=text]{
+    text-align: start;
+    height: 120px;
+}
+
+.submit{
+    margin-top: 30px;
+    height: 50px;
+    width: 410px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    background: var(--green);
+    color: var(--white);
+    cursor: pointer;
+}
